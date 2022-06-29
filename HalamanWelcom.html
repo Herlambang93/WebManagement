@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://kit.fontawesome.com/27dc45974d.js" crossorigin="anonymous"></script>
+    <title>MenuUtama</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <a class="navbar-brand" href="#">
+          <img src="/frontend/img/TVRILogo2019.svg@2x.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Menu-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JADWAL</a>
+            </li>
+          </ul>
+          <!--Mobile Button-->
+          <form class="form-inline d-sm-block d-md-none">
+            <button class="btn btn-login my-2 my-sm-0">MASUK</button>
+          </form>
+          <!--Desktop Button-->
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+            <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">MASUK</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+
+    <!--Header-->    
+    <div class="section-welcome" id="welcome">
+      <div class="container ">
+        <div class="row">
+          <div class="col mt-5">
+            <h3>SELAMAT DATANG</h3>
+            <p>BINUKO NUGROHO</p>
+            <img class="foto-login mt-3" src="/frontend/img/avatarlogin.png" alt="" width="170px" />
+            <form class="form-inline my-lg-5 my-lg-0 d-none d-md-block">
+                
+                <button class="btn btn-lihat btn-navbar-right my-2 my-sm-0 px-1">Lihat SPO</button>
+                <br>
+                <br>
+                <button class="btn btn-lihat btn-navbar-right my-2 my-sm-0 px-1">
+                    <i class="fa-solid fa-plus px-1"></i>Tambah SPO</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
