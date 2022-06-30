@@ -7,12 +7,12 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link rel="stylesheet" href="style1.css" />
-    <title>SuratTugasProduksi</title>
+    <title>InputAcara</title>
   </head>
   <body>
     <!-- Navbar -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow mb-5">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
         <a class="navbar-brand" href="#">
           <img src="/frontend/img/TVRILogo2019.svg@2x.png" alt="" />
         </a>
@@ -41,34 +41,38 @@
       </nav>
     </div>
 
-    <!-- Main -->
-    <section class="section-produksi">
-      <div class="container">
-        <div class="row">
-          <div class="col text-center section-produksi-heading">
-            <h3 class="mt-5 mb-5">Surat Tugas Produksi dan Penyiaran</h3>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section-produksi-content">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="box text-center col-10 rounded-5">
-            <div class="col-4">
-              <p>30-Mei-2022</p>
+    <div class="container">
+      <div class="row justify-content-center mt-5">
+        <div class="col-6">
+          <form class="shadow p-3 py-5 rounded-3">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Acara</label>
+              <input type="text" class="form-control" id="" aria-describedby="" />
             </div>
-            <div class="col-4">
-              <p>SABA DESA</p>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Bidang</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" />
             </div>
-            <div class="col-4">
-              <div class="produksi-button">
-                <a href="#" class="btn btn-produksi-lihat">Lihat</a>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Crew</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Nama Crew Produksi</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="form-text">*Masukkan NIP dan Nama Lengkap</div>
+            </div>
+            <div class="d-flex justify-content-center gap-1">
+              <div class="d-grid gap-2 col-6 mx-auto m-2">
+                <a class="btn btn-input" type="button" href="/MenuUtama.html">Simpan</a>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto m-2">
+                <a class="btn btn-input" type="button" href="/MenuUtama.html">Kembali</a>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
-    </section>
+    </div>
   </body>
 </html>

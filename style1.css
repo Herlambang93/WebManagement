@@ -154,9 +154,9 @@ header .a {
   flex-wrap: wrap;
 }
 
-.section-produksi-form .container-sop .form-produksi .user-detail .input-fields {
+/* .section-produksi-form .container-sop .form-produksi .user-detail .input-fields {
   width: calc(100% / 2 - 20px);
-}
+} */
 
 .section-produksi-form .container-sop .form-produksi .user-detail .input-fields label {
   display: block;
@@ -171,5 +171,32 @@ header .a {
 .table .table-light tr th {
   background-color: #1c316b;
 
+  color: #ffffff;
+}
+
+.btn-input {
+  background-color: #1c316b;
+  color: #ffffff;
+}
+
+.finput {
+  background-image: url(/frontend/img/TVRILogo2019.svg.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: flex-end;
+  flex: auto;
+  background-size: 200px 100px;
+}
+
+section .btn-produksi-Buat {
+  width: 150px;
+  height: 40px;
+  background-color: #1c316b;
+  color: #ffffff;
+}
+section .btn-produksi-Buat:hover {
+  width: 150px;
+  height: 40px;
+  background-color: #223c84;
   color: #ffffff;
 }

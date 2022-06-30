@@ -7,6 +7,7 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <link rel="stylesheet" href="style1.css" />
+    <script src="https://kit.fontawesome.com/27dc45974d.js" crossorigin="anonymous"></script>
     <title>SuratTugasProduksi</title>
   </head>
   <body>
@@ -51,33 +52,75 @@
         </div>
       </div>
     </section>
-    <section class="container">
+    <section class="container op">
       <div class="row">
         <div class="col-md-6 mx-auto bg-white shadow p-3 py-5 rounded-3">
-          <div class="col-10">
-            <p>Acara :</p>
-            <p>Judul :</p>
-            <p>Jenis Produksi :</p>
-            <p>Durasi :</p>
-            <p>Tanggal QA :</p>
-            <p>Lokasi :</p>
-            <p>Produser :</p>
-            <p>Pengarah Acara :</p>
-            <p>Tanggal Produksi :</p>
-            <p>Penanggung Jawab Teknik :</p>
-            <p>Eksekutif Produser :</p>
-            <p>Peralatan :</p>
-            <p>Crew Produksi :</p>
-            <p>Pengemudi :</p>
-            <p>Unit Manager :</p>
-            <p>Tanggal Pasca Produksi :</p>
-            <p>Pengarah Acara :</p>
-            <p>Peralatan Acara :</p>
-            <p>Dokumentasi :</p>
-            <p>Keterangan :</p>
-          </div>
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom04" class="form-label">Acara</label>
+              <select class="form-select" id="validationCustom01" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">Acara Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Judul</label>
+              <input type="text" class="form-control" id="validationCustom02" required />
+              <div class="invalid-feedback">Judul Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Jenis Produksi</label>
+              <input type="text" class="form-control" id="validationCustom03" required />
+              <div class="invalid-feedback">Jenis Produksi Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Durasi</label>
+              <input type="text" class="form-control" id="validationCustom04" required />
+              <div class="invalid-feedback">Durasi Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Tanggal On Air</label>
+              <input type="date" class="form-control" id="validationCustom05" required />
+              <div class="invalid-feedback">Tanggal On Air Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Lokasi</label>
+              <input type="text" class="form-control" id="validationCustom06" required />
+              <div class="invalid-feedback">Lokasi Tidak Boleh Kosong</div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Produser</label>
+              <input type="text" class="form-control" id="validationCustom08" required />
+              <div class="invalid-feedback">Produser Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom04" class="form-label">Pengarah Acara</label>
+              <select class="form-select" id="validationCustom09" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+              <div class="invalid-feedback">Pengarah Acara Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Tanggal Awal Produksi</label>
+              <input type="date" class="form-control" id="validationCustom010" required />
+              <div class="invalid-feedback">Tanggal Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom05" class="form-label">Tanggal Akhir Produksi</label>
+              <input type="date" class="form-control" id="validationCustom11" required />
+              <div class="invalid-feedback">Tanggal Tidak Boleh Kosong</div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-produksi-Buat" type="submit"><i class="fa-solid fa-plus p-1 w-10 h-20"></i>Tambah SPO</button>
+            </div>
+          </form>
         </div>
       </div>
     </section>
+
+    <script src="/Javascript.js"></script>
   </body>
 </html>
